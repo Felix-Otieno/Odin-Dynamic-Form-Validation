@@ -1,0 +1,19 @@
+.error-message {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  input.invalid {
+    border: 2px solid red;
+  }
+  
+  input:not(.invalid) {
+    border: 2px solid green;
+  }
+  
+  #successMessage {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
